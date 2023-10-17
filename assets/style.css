@@ -8,27 +8,34 @@
     margin-top: 0.7rem;
     margin-bottom: -2rem;
     font-family: 'Neoncity';
-    
-    
+  }
+  .titulo{
+    position: relative;
+    background-color: #c7affb;
+    width: 30%;
+    text-align: center;
+    margin-left: 34rem;
+    left: 5rem;
+    right: 5rem;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
   }
   body {
       height: 100%;
       width: 100%;
-      display: block;
       justify-content: center;
       align-items: center;
-      background-color: #c7affb
-      
-      
+      background-image: url("/assets/images/images/completo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
   }
   main {
       display: flex;
       flex-direction: column;
       font-family: 'Righteous', cursive;
-      background-color: #c7affb;
-      margin-top: 50px;
+      margin-top: 40px;
       align-items: center;
-      
   }
   .Autores {
     display: flex;
@@ -99,6 +106,11 @@
   .question {
     font-size: 20px;
     padding-bottom: 10px;
+  }
+  .question-conteiner{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
   }
   .neutralArea {
       width: 100%;
