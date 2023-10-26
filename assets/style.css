@@ -192,7 +192,7 @@
       margin-top: 5px;
   }
     .Autores {
-      height: 320px;
+      height: 360px;
       width: 1220px;
     }
     .Autor{
@@ -207,8 +207,17 @@
       height: 100px;
       width: 100px;
     }
+    .img-autor-lobato{
+      height: 135px;
+      width: 135px;
+    }
     .quote {
       font-size: 17px;
+    }
+    .quote-cora {
+      font-size: 16px;
+      margin-top: 1rem;
+      text-align: center;
     }
     .Frases-Autores {
       height: 420px;
@@ -228,7 +237,7 @@
     width: 390px;
   }
   .item {
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 16px;
     
   }
